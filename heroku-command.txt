@@ -1,0 +1,2 @@
+heroku create -n == create heroku app
+ mvn clean package heroku:deploy -Dheroku.appName=desolate-sands-92068 == deploy jar in heroku app
